@@ -1,0 +1,58 @@
+.App{
+    display: flex;
+}                                                                                                                                                                                                                                            
+
+.sport-form{
+    justify-content: space-around;
+    width: 100%;
+    height: 15vh;
+    z-index:2000;
+
+}
+.map {
+    width : 100%
+}
+
+.mapboxgl-popup-content{
+    border-radius: 15px;
+    width :350px;
+}
+.fav-btn{
+    position: relative;
+    left: 35%;
+    font-size: 25px;
+    background: $Yellow;
+    border: none;
+    padding: 12px;
+    &:hover{
+        border : 2px solid $Black;
+        padding : 10px ;
+    }
+}
+
+.form{
+    display: none;
+    background: $White;
+    height : 50vh ; 
+    padding :10px ;
+    overflow: scroll;
+    
+}
+.down-relative{
+    position :relative;
+    top:4vh;
+}
+.arrow {
+    position: relative;
+    bottom: 8px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .list{
+      border-top: 1px solid $Grey-light;
+      border-bottom: 1px solid $Grey-light;
+  }
