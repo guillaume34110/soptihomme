@@ -1,5 +1,5 @@
 sportyhomme :
-a small apllication with mapbox and sportyhome api
+a small apllication with mapbox and sportihome api
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
